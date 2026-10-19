@@ -4,14 +4,12 @@ one:
   rating: 1
   return_date: 2026-10-19
   is_late: false
-  user: MyString
-  references: MyString
+  member: one
   book: one
 
 two:
   rating: 1
   return_date: 2026-10-19
   is_late: false
-  user: MyString
-  references: MyString
+  member: two
   book: two

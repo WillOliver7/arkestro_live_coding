@@ -46,6 +46,6 @@ class LendingsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def lending_params
-      params.expect(lending: [ :rating, :return_date, :is_late, :user, :references, :book_id ])
+      params.expect(lending: [ :rating, :return_date, :is_late, :book_id, :member_id ])
     end
 end

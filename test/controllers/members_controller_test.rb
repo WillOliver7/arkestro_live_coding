@@ -12,7 +12,7 @@ class MembersControllerTest < ActionDispatch::IntegrationTest
 
   test "should create member" do
     assert_difference("Member.count") do
-      post members_url, params: { member: { email: @member.email, name: @member.name } }, as: :json
+      post members_url, params: { member: { email: "new.member@example.com", name: "New Member" } }, as: :json
     end
 
     assert_response :created
